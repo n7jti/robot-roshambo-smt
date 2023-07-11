@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Robot Roshambo SMT")
+    (rev "v0.1")
+    (company "Ludwig Makerspace")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x03_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.08 0)
@@ -1340,6 +1346,34 @@
   (wire (pts (xy 35.56 110.49) (xy 41.91 110.49))
     (stroke (width 0) (type default))
     (uuid ff4367cf-6fa6-41cd-9ec9-3b441720637c)
+  )
+
+  (text "RED-Green-Blue\nIndicators for player \n\"rock, paper, scissors\"\n"
+    (at 17.78 35.56 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 25161dbe-1325-42f7-9001-92db9917ee3e)
+  )
+  (text "Connector A\nfrom Player to \nOpponent" (at 224.79 137.16 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4d5288e5-385a-42d9-9566-e4e5067dd2c0)
+  )
+  (text "RED-Yellow-Green\nIndicators for player \n\"Loose, Draw, Win\"\n"
+    (at 16.51 140.97 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8312b22c-90f9-4477-8a80-56e791dd84a7)
+  )
+  (text "Connector for \nPC USB to Serial \n" (at 186.69 137.16 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8ca0809a-d083-45c8-9046-09fb17eb984c)
+  )
+  (text "Connector B from\nOpponent to Player\n" (at 252.73 134.62 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9590bda7-5913-498b-aacc-04988ab7b5b1)
+  )
+  (text "RED-Green-Blue\nIndicators for opponent \n\"rock, paper, scissors\"\n"
+    (at 17.78 86.36 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ae10e817-fa46-4994-bc67-8b2dddf7d336)
   )
 
   (label "GND" (at 264.16 119.38 0) (fields_autoplaced)
